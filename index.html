@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Erick Kirk — Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="description" content="Portfolio of Erick Kirk — research, engineering, projects and contact.">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">Erick Kirk</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="/">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Researcher • Engineer • Builder</h1>
+      <p class="lead">I build reproducible research, open-source tools, and thoughtful experiments. Below are selected projects and ways to contact me.</p>
+      <p><a class="btn" href="projects.html">See Projects</a> <a class="btn ghost" href="about.html">About Me</a></p>
+    </section>
+
+    <section aria-labelledby="selected-projects">
+      <h2 id="selected-projects">Selected Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Project A</h3>
+          <p>Short one-line summary. <a href="#">Read more →</a></p>
+        </article>
+
+        <article class="card">
+          <h3>Project B</h3>
+          <p>Short one-line summary. <a href="#">Read more →</a></p>
+        </article>
+
+        <article class="card">
+          <h3>Project C</h3>
+          <p>Short one-line summary. <a href="#">Read more →</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="contact">
+      <h2 id="contact">Contact</h2>
+      <p>For collaborations and inquiries: <a href="mailto:you@example.com">you@example.com</a></p>
+      <p>Find my work on <a href="https://github.com/erickirkresearch" target="_blank" rel="noopener">GitHub</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Erick Kirk — <a href="https://github.com/erickirkresearch" target="_blank" rel="noopener">GitHub</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
